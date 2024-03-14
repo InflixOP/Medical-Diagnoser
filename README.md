@@ -1,12 +1,11 @@
 # Medical Diagnosis Assistant
 
 ## Description
+Recognizing the growing need for quick and reliable medical consultation, the Medical Diagnosis Assistant was conceptualized to provide users with an easy-to-use platform for instant health assessments. This tool is particularly useful in scenarios where access to immediate medical advice is limited. By incorporating a user-friendly interface and a powerful backend processing system, the project aims to reduce anxiety and uncertainty related to health symptoms, fostering informed decision-making and timely medical consultations.
 ### Input
 ![Screenshot 2024-03-14 at 10 35 06 PM](https://github.com/adil200/Medical-Diagnoser/assets/75264739/061143a9-ff8b-47e0-82a4-bb32f2f514c9)
 ### Output
 ![Screenshot 2024-03-14 at 10 35 12 PM](https://github.com/adil200/Medical-Diagnoser/assets/75264739/a42ed5c8-fc9e-44e9-a2b6-f39890b3f49a)
-
-Recognizing the growing need for quick and reliable medical consultation, the Medical Diagnosis Assistant was conceptualized to provide users with an easy-to-use platform for instant health assessments. This tool is particularly useful in scenarios where access to immediate medical advice is limited. By incorporating a user-friendly interface and a powerful backend processing system, the project aims to reduce anxiety and uncertainty related to health symptoms, fostering informed decision-making and timely medical consultations.
 
 ## Features
 
