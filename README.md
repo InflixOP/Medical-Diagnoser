@@ -49,10 +49,6 @@ flask run
 3.  Submit your symptoms to receive a preliminary diagnosis.
 4.  The diagnosis result, along with any suggested actions or advice, will be displayed on the screen.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 -   This project was developed to address the increasing need for digital health solutions, offering a convenient and quick way to assess medical symptoms.
