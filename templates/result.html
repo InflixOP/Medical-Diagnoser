@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnosis Result</title>
+    <link href="{{ url_for('static', filename='index.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="result-container">
+            <p class="result-title">User Input:</p>
+            <p class="result-text"><strong>{{ patient_problem }}</strong></p>
+        </div>
+        <div class="result-container">
+            <p class="result-title">Predicted Disease:</p>
+            <p class="result-text">{{ disease }}</p>
+        </div>
+        <div class="result-container">
+            <p class="result-title">Suggested Prescription:</p>
+            <p class="result-text">{{ prescription }}</p>
+        </div>
+        <a href="/" class="back-btn">Diagnose Again</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Diagnosis Assistant</title>
+    <link href="{{ url_for('static', filename='index.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Medical Diagnoser</h1>
+        <div class="form-container">
+            <form action="/predict" method="post">
+                <input type="text" name="patient_problem" class="input-field" placeholder="Enter your symptoms here...">
+                <button type="submit" class="submit-btn">Diagnose</button>
+            </form>
+        </div>
+    </div>    
+</body>
+</html>
