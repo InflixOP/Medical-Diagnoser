@@ -1,14 +1,14 @@
-from flask import Flask, request, render_template
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from sklearn.preprocessing import LabelEncoder
 import numpy as np
 import pandas as pd
+from flask import Flask, render_template, request
+from sklearn.preprocessing import LabelEncoder
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.text import Tokenizer
 
 app = Flask(__name__)
 
-data = pd.read_csv('/Users/adilmohammed/Desktop/Medical Diagnoser/medical_data.csv')
+data = pd.read_csv('C:\\Users\\saxen\\OneDrive\\Documents\\GitHub\\Medical-Diagnoser\\medical_data.csv')
 
 tokenizer = Tokenizer(num_words=5000, oov_token="<OOV>")
 tokenizer.fit_on_texts(data['Patient_Problem'])
@@ -18,7 +18,7 @@ disease_labels = label_encoder_disease.fit_transform(data['Disease'])
 label_encoder_prescription = LabelEncoder()
 prescription_labels = label_encoder_prescription.fit_transform(data['Prescription'])
 
-model = load_model('/Users/adilmohammed/Desktop/Medical Diagnoser/model.h5')
+model = load_model('C:\\Users\\saxen\\OneDrive\\Documents\\GitHub\\Medical-Diagnoser\\model.h5')
 
 max_length = 17 
 
